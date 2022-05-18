@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.app__account {
+  margin-bottom: 25%;
+}
+
+.app__warning {
+  display: flex;
+  margin: auto;
+  border: 1px solid gray;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  width: fit-content;
+}
+
+.app__login {
+  margin-top: 25%;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: darkgreen;
+  padding: 1rem 2rem;
+}
